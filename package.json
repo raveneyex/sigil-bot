@@ -1,0 +1,15 @@
+{
+  "main": "bot.js",
+  "scripts": {
+    "start": "node -r dotenv/config bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@raveneyex",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mantrick": "file:../mantrick",
+    "twit": "^2.2.11"
+  },
+  "type": "module"
+}
