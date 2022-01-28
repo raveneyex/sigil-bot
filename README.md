@@ -4,10 +4,13 @@ A bot to automatically tweet my sigil.
 # FAQ
 
 #### 1. What is a sigil?
+Go read [this](https://en.wikipedia.org/wiki/Sigil).
 
 #### 2. What's the goal here?
+...
 
 #### 3. Does this shit works?
+Yes.
 
 #### 4. Is this Satanic?
 It is if you want it to be.
@@ -29,5 +32,5 @@ I dedicate this little app to:
 2. The _Prince of Darkness_, in whatever form and name he might take. Hail, _Horned Lord_!
 3. Myself, and the Black Flame that burns inside me and makes it possible for me to get inspired and do magick.
 
-[![The RavenEyex Sigil](./raveneyex.png)](https://github.com/raveneyex)
+[![The RavenEyex Sigil](./sigils/raveneyex.png)](https://github.com/raveneyex)
 
