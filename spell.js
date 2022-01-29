@@ -28,11 +28,11 @@ async function castSigilChoice() {
 
 function castSigils() {
   return new Promise(resolve => {
-    const intervalId = setInterval(castSigilChoice, 1000 * 60);
+    const intervalId = setInterval(castSigilChoice, HOUR);
     setTimeout(() => {
       clearInterval(intervalId);
       resolve();
-    }, 1000 * 60 * 5);
+    }, HOUR * 5);
   });
 }
 
