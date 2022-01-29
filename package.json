@@ -1,7 +1,7 @@
 {
-  "main": "bot.js",
+  "main": "spell.js",
   "scripts": {
-    "start": "node -r dotenv/config bot.js",
+    "start": "node -r dotenv/config spell.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "@raveneyex",
