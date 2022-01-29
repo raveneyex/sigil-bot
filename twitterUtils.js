@@ -37,7 +37,7 @@ async function postMedia(b64content, altText) {
  */
 export async function twit(message, media) {
   try {
-    const mediaId = await postMedia(media.sigil, media.intent);
+    const mediaId = await postMedia(media, message);
     
     // Post content with image
     const statusResponse = await Twitter.post('statuses/update', {

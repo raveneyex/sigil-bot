@@ -22,13 +22,9 @@ async function castSigilChoice() {
   let index = getIndex();
   const { intent, sigil } = SIGILS_LIST[index];
   await twit(intent, sigil);
-  setIndex(index++);
+  setIndex(index+1);
 }
 
-async function animatedSequence() {
-  const intent = `${AOA.intent}—${SPELL.intent}`;
-  twit(intent, SPELL);
-}
 
 function castSigils() {
   return new Promise(resolve => {
@@ -42,16 +38,11 @@ function castSigils() {
 
 export async function castSpell() {
   try {
-    await animatedSequence();
-    await castSigils();
-    animatedSequence();
+    castSigilChoice();
+    castSigils();
   }
   catch (error) {
-    debugger;
     console.error(`Something went wrong: ${error.message}`);
-  }
-  finally {
-    animatedSequence();
   }
 }
 
